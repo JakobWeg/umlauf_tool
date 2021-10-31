@@ -71,7 +71,7 @@ def Dateispeichern(Ergebnis):
 if __name__ == '__main__':
 
     Streckendef = np.transpose(
-        Streckendefeinlesen("2021-10-07_Umlaufplanung.xlsx"))  # Transponieren für Zeilenweisen Zugriff
+        Streckendefeinlesen("Umlaufplanung.xlsx"))  # Transponieren für Zeilenweisen Zugriff
 
     AnzStreckenabsch = len(Streckendef)
     Streckendaten = pd.DataFrame()
